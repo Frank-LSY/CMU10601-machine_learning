@@ -1,5 +1,5 @@
 *.zip
-./hw1/latex_template/
-./hw1/.idea/
+/hw1/latex_template/
+/hw1/.idea/
 .DS_Store
-./hw1/.DS_Store
+/hw1/.DS_Store
