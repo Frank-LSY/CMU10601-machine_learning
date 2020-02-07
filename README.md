@@ -7,5 +7,8 @@
 
 ## hw2 
 - **[决策树](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw2/) python代码实现**
-	- 依照dataset构造决策树
+	- 依照dataset递归构造决策树
+		+ 基尼不纯度作为划分依据
+		+ 叶节点投票决定
 	- 遍历决策树
+	- 利用决策树进行预测

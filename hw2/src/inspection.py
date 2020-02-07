@@ -22,13 +22,14 @@ class Inspection():
             else:
                 continue
         count2 = len(dataset) - count1
-
         if count1 > count2:
             return label[0]
         elif count2 > count1:
             return label[1]
+        elif count2==0:
+            return label[0]
         else:
-            return rd.choice(label[0], label[1])
+            return label[1]
 
     # error rate
     def error_rate(self,dataset):
@@ -72,5 +73,5 @@ if __name__ == '__main__':
     with open(outfile, 'w') as f:
         f.writelines("gini_impurity: {}\n".format(gini_impurity))
         f.writelines("error: {}\n".format(err_rate))
-    print(err_rate)
-    print(gini_impurity)
+    # print(err_rate)
+    # print(gini_impurity)
