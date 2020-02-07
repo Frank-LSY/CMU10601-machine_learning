@@ -6,7 +6,7 @@
 - **高数、线代、概率回顾: [题目pdf](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw1/hw1_writeup.pdf) [答案pdf]()**
 
 ## hw2 
-- **[决策树](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw2/) python代码实现**
+- **[决策树](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw2/src/decisionTree.py) python代码实现**
 	- 依照dataset递归构造决策树
 		+ 基尼不纯度作为划分依据
 		+ 叶节点投票决定
