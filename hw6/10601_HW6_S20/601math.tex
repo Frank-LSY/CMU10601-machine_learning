@@ -1,0 +1,166 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Custom commands                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\vc}[1]{\boldsymbol{#1}}
+\newcommand{\adj}[1]{\frac{d J}{d #1}}
+\newcommand{\chain}[2]{\adj{#2} = \adj{#1}\frac{d #1}{d #2}}
+
+% mathcal
+\newcommand{\Ac}{\mathcal{A}}
+\newcommand{\Bc}{\mathcal{B}}
+\newcommand{\Cc}{\mathcal{C}}
+\newcommand{\Dc}{\mathcal{D}}
+\newcommand{\Ec}{\mathcal{E}}
+\newcommand{\Fc}{\mathcal{F}}
+\newcommand{\Gc}{\mathcal{G}}
+\newcommand{\Hc}{\mathcal{H}}
+\newcommand{\Ic}{\mathcal{I}}
+\newcommand{\Jc}{\mathcal{J}}
+\newcommand{\Kc}{\mathcal{K}}
+\newcommand{\Lc}{\mathcal{L}}
+\newcommand{\Mc}{\mathcal{M}}
+\newcommand{\Nc}{\mathcal{N}}
+\newcommand{\Oc}{\mathcal{O}}
+\newcommand{\Pc}{\mathcal{P}}
+\newcommand{\Qc}{\mathcal{Q}}
+\newcommand{\Rc}{\mathcal{R}}
+\newcommand{\Sc}{\mathcal{S}}
+\newcommand{\Tc}{\mathcal{T}}
+\newcommand{\Uc}{\mathcal{U}}
+\newcommand{\Vc}{\mathcal{V}}
+\newcommand{\Wc}{\mathcal{W}}
+\newcommand{\Xc}{\mathcal{X}}
+\newcommand{\Yc}{\mathcal{Y}}
+\newcommand{\Zc}{\mathcal{Z}}
+
+% mathbb
+\newcommand{\Ab}{\mathbb{A}}
+\newcommand{\Bb}{\mathbb{B}}
+\newcommand{\Cb}{\mathbb{C}}
+\newcommand{\Db}{\mathbb{D}}
+\newcommand{\Eb}{\mathbb{E}}
+\newcommand{\Fb}{\mathbb{F}}
+\newcommand{\Gb}{\mathbb{G}}
+\newcommand{\Hb}{\mathbb{H}}
+\newcommand{\Ib}{\mathbb{I}}
+\newcommand{\Jb}{\mathbb{J}}
+\newcommand{\Kb}{\mathbb{K}}
+\newcommand{\Lb}{\mathbb{L}}
+\newcommand{\Mb}{\mathbb{M}}
+\newcommand{\Nb}{\mathbb{N}}
+\newcommand{\Ob}{\mathbb{O}}
+\newcommand{\Pb}{\mathbb{P}}
+\newcommand{\Qb}{\mathbb{Q}}
+\newcommand{\Rb}{\mathbb{R}}
+\newcommand{\Sb}{\mathbb{S}}
+\newcommand{\Tb}{\mathbb{T}}
+\newcommand{\Ub}{\mathbb{U}}
+\newcommand{\Vb}{\mathbb{V}}
+\newcommand{\Wb}{\mathbb{W}}
+\newcommand{\Xb}{\mathbb{X}}
+\newcommand{\Yb}{\mathbb{Y}}
+\newcommand{\Zb}{\mathbb{Z}}
+
+% mathbf lowercase
+\newcommand{\av}{\mathbf{a}}
+\newcommand{\bv}{\mathbf{b}}
+\newcommand{\cv}{\mathbf{c}}
+\newcommand{\dv}{\mathbf{d}}
+\newcommand{\ev}{\mathbf{e}}
+\newcommand{\fv}{\mathbf{f}}
+\newcommand{\gv}{\mathbf{g}}
+\newcommand{\hv}{\mathbf{h}}
+\newcommand{\iv}{\mathbf{i}}
+\newcommand{\jv}{\mathbf{j}}
+\newcommand{\kv}{\mathbf{k}}
+\newcommand{\lv}{\mathbf{l}}
+\newcommand{\mv}{\mathbf{m}}
+\newcommand{\nv}{\mathbf{n}}
+\newcommand{\ov}{\mathbf{o}}
+\newcommand{\pv}{\mathbf{p}}
+\newcommand{\qv}{\mathbf{q}}
+\newcommand{\rv}{\mathbf{r}}
+\newcommand{\sv}{\mathbf{s}}
+\newcommand{\tv}{\mathbf{t}}
+\newcommand{\uv}{\mathbf{u}}
+\newcommand{\vv}{\mathbf{v}}
+\newcommand{\wv}{\mathbf{w}}
+\newcommand{\xv}{\mathbf{x}}
+\newcommand{\yv}{\mathbf{y}}
+\newcommand{\zv}{\mathbf{z}}
+
+% mathbf uppercase
+\newcommand{\Av}{\mathbf{A}}
+\newcommand{\Bv}{\mathbf{B}}
+\newcommand{\Cv}{\mathbf{C}}
+\newcommand{\Dv}{\mathbf{D}}
+\newcommand{\Ev}{\mathbf{E}}
+\newcommand{\Fv}{\mathbf{F}}
+\newcommand{\Gv}{\mathbf{G}}
+\newcommand{\Hv}{\mathbf{H}}
+\newcommand{\Iv}{\mathbf{I}}
+\newcommand{\Jv}{\mathbf{J}}
+\newcommand{\Kv}{\mathbf{K}}
+\newcommand{\Lv}{\mathbf{L}}
+\newcommand{\Mv}{\mathbf{M}}
+\newcommand{\Nv}{\mathbf{N}}
+\newcommand{\Ov}{\mathbf{O}}
+\newcommand{\Pv}{\mathbf{P}}
+\newcommand{\Qv}{\mathbf{Q}}
+\newcommand{\Rv}{\mathbf{R}}
+\newcommand{\Sv}{\mathbf{S}}
+\newcommand{\Tv}{\mathbf{T}}
+\newcommand{\Uv}{\mathbf{U}}
+\newcommand{\Vv}{\mathbf{V}}
+\newcommand{\Wv}{\mathbf{W}}
+\newcommand{\Xv}{\mathbf{X}}
+\newcommand{\Yv}{\mathbf{Y}}
+\newcommand{\Zv}{\mathbf{Z}}
+
+% bold greek lowercase
+\newcommand{\alphav     }{\boldsymbol \alpha     }
+\newcommand{\betav      }{\boldsymbol \beta      }
+\newcommand{\gammav     }{\boldsymbol \gamma     }
+\newcommand{\deltav     }{\boldsymbol \delta     }
+\newcommand{\epsilonv   }{\boldsymbol \epsilon   }
+\newcommand{\varepsilonv}{\boldsymbol \varepsilon}
+\newcommand{\zetav      }{\boldsymbol \zeta      }
+\newcommand{\etav       }{\boldsymbol \eta       }
+\newcommand{\thetav     }{\boldsymbol \theta     }
+\newcommand{\varthetav  }{\boldsymbol \vartheta  }
+\newcommand{\iotav      }{\boldsymbol \iota      }
+\newcommand{\kappav     }{\boldsymbol \kappa     }
+\newcommand{\varkappav  }{\boldsymbol \varkappa  }
+\newcommand{\lambdav    }{\boldsymbol \lambda    }
+\newcommand{\muv        }{\boldsymbol \mu        }
+\newcommand{\nuv        }{\boldsymbol \nu        }
+\newcommand{\xiv        }{\boldsymbol \xi        }
+\newcommand{\omicronv   }{\boldsymbol \omicron   }
+\newcommand{\piv        }{\boldsymbol \pi        }
+\newcommand{\varpiv     }{\boldsymbol \varpi     }
+\newcommand{\rhov       }{\boldsymbol \rho       }
+\newcommand{\varrhov    }{\boldsymbol \varrho    }
+\newcommand{\sigmav     }{\boldsymbol \sigma     }
+\newcommand{\varsigmav  }{\boldsymbol \varsigma  }
+\newcommand{\tauv       }{\boldsymbol \tau       }
+\newcommand{\upsilonv   }{\boldsymbol \upsilon   }
+\newcommand{\phiv       }{\boldsymbol \phi       }
+\newcommand{\varphiv    }{\boldsymbol \varphi    }
+\newcommand{\chiv       }{\boldsymbol \chi       }
+\newcommand{\psiv       }{\boldsymbol \psi       }
+\newcommand{\omegav     }{\boldsymbol \omega     }
+
+% bold greek uppercase
+\newcommand{\Gammav     }{\boldsymbol \Gamma     }
+\newcommand{\Deltav     }{\boldsymbol \Delta     }
+\newcommand{\Thetav     }{\boldsymbol \Theta     }
+\newcommand{\Lambdav    }{\boldsymbol \Lambda    }
+\newcommand{\Xiv        }{\boldsymbol \Xi        }
+\newcommand{\Piv        }{\boldsymbol \Pi        }
+\newcommand{\Sigmav     }{\boldsymbol \Sigma     }
+\newcommand{\Upsilonv   }{\boldsymbol \Upsilon   }
+\newcommand{\Phiv       }{\boldsymbol \Phi       }
+\newcommand{\Psiv       }{\boldsymbol \Psi       }
+\newcommand{\Omegav     }{\boldsymbol \Omega     }
