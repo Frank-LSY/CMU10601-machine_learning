@@ -37,3 +37,51 @@
  	- [学习](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw7/learnhmm.py)
  	- [前向-后向算法(Forward-Backward)预测](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw7/forwardbackward.py)
  - **[基础知识，维特比](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw7/hw7.pdf)**
+
+## hw8
+ - **增强学习+线性回归，Q学习[小车爬山问题](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw8/handout/python/q_learning.py)**
+ - **[增强学习理论](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw8/hw8.pdf)**
+ 	- Q学习
+ 	- 值迭代/规则迭代方法 
+ 	- 马尔科夫决策过程
+
+## [hw9](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/hw9/hw9.pdf)
+ - 图模型，贝叶斯网
+ - K-Means聚类
+ - PCA降维
+ - SVM hard&soft
+ - 核方法
+
+## 考试复习题
+ - **[mid1](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/Midterm_1_Practice/Midterm%201%20Practice%20Problems.pdf)**
+ - |主题|页码|
+	|:----:|:----:|
+	|决策树|3|
+	|K最近邻|6|
+	|模型选择|8|
+	|感知器|11|
+	|线性模型|14|
+	|优化方法|19|
+	
+ - **[mid2](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/Midterm_2_Practice_Problems/Midterm%202%20Practice%20Problems.pdf)**
+ - |主题|页码|
+	|:----:|:----:|
+	|逻辑回归|2|
+	|正则化|4|
+	|神经网络|5|
+	|PAC学习理论|10|
+	|MLE/MAP|12|
+	|朴素贝叶斯|15|
+ 
+ - **[final](https://github.com/Frank-LSY/CMU10601-machine_learning/blob/master/Final_Exam_Practice_Problems/Final%20Exam%20Practice%20Problems.pdf)** 
+ - |主题|页码|
+	|:----:|:----:|
+	|集成方法|2|
+	|推荐系统|5|
+	|隐马尔科夫|7|
+	|图模型|10|
+	|PCA|13|
+	|增强学习|15|
+	|K-Means|20|
+	|SVM|24|
+	|核方法|27|
